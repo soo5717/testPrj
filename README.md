@@ -1,6 +1,8 @@
 # testPrj
 ## Prerequistic
-* hostname : Master is hadoop master. 
+
+### hostname 
+* Master is hadoop master. 
 * example
 ```
 sudo -i
@@ -18,6 +20,7 @@ MyKey.pem  do.sh  hive_empdept.sh
 ```
 git clone https://github.com/soo5717/testPrj.git
 cd testPrj
+scp ~/MyKey.pem ./
 . do.sh
 ```
 
